@@ -3,11 +3,11 @@ import React from 'react';
 import { Container } from '../../styles/components/Media';
 
 interface PropsMedia {
-  backgroundImage: string;
+  image: string;
 }
 
-const Media: React.FC<PropsMedia> = ({ backgroundImage }: PropsMedia) => {
-  return <Container image={backgroundImage} />;
+const Media: React.FC<PropsMedia> = ({ image }: PropsMedia) => {
+  return <Container image={image} />;
 };
 
 export default Media;
