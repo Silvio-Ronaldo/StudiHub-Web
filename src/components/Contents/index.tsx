@@ -1,10 +1,14 @@
 import React from 'react';
 
+import { Container } from '../../styles/components/Contents';
+
+import Card from '../Card';
+
 const Contents: React.FC = () => {
   return (
-    <div>
-      <h1>Ola</h1>
-    </div>
+    <Container>
+      <Card />
+    </Container>
   );
 };
 
