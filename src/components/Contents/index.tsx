@@ -10,7 +10,9 @@ const Contents: React.FC = () => {
     <Container>
       <Card />
 
-      <Animation />
+      <div style={{ marginTop: 10 }}>
+        <Animation animation="studentsLearning" />
+      </div>
     </Container>
   );
 };
