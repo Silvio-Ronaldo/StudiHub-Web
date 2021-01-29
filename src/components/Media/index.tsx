@@ -1,11 +1,13 @@
 import React from 'react';
 
-const Media: React.FC = () => {
-  return (
-    <div>
-      <h1>olá</h1>
-    </div>
-  );
+import { Container } from '../../styles/components/Media';
+
+interface PropsMedia {
+  backgroundImage: string;
+}
+
+const Media: React.FC<PropsMedia> = ({ backgroundImage }: PropsMedia) => {
+  return <Container image={backgroundImage} />;
 };
 
 export default Media;

@@ -30,3 +30,9 @@ export const Title = styled.h2`
   line-height: 1.5em;
   margin-bottom: 10px;
 `;
+
+export const InfoGroup = styled.div`
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+`;
