@@ -18,6 +18,7 @@ export const Container = styled.header`
 
   position: fixed;
   transition: all 150ms ease 0s;
+  z-index: 1100;
 `;
 
 export const Content = styled.div`
