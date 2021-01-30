@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { FiTwitter, FiInstagram, FiFacebook } from 'react-icons/fi';
 
 import {
@@ -10,8 +10,24 @@ import {
 } from '../../styles/components/Header';
 
 const Header: React.FC = () => {
+  const [header, setHeader] = useState('header');
+
+  const listenScrollEvent = (event: any): any => {
+    if (window.scrollY < 400) {
+      return setHeader('header');
+    }
+
+    return setHeader('header2');
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', listenScrollEvent);
+
+    return () => window.removeEventListener('scroll', listenScrollEvent);
+  }, [header]);
+
   return (
-    <Container>
+    <Container visibility={header}>
       <Content>
         <Brand>StudiHub</Brand>
 

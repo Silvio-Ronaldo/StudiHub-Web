@@ -1,19 +1,29 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
-export const Container = styled.header`
+export const Container = styled.header<{ visibility: string }>`
+  background-color: ${props =>
+    props.visibility === 'header'
+      ? 'transparent'
+      : `${props.theme.colors.primary}`};
+
+  border-bottom: ${props =>
+    props.visibility === 'header'
+      ? 'none'
+      : `2px solid ${props.theme.colors.secondary}`};
+
   display: flex;
   align-items: center;
   justify-content: flex-start;
 
   color: ${props => props.theme.colors.text};
-  background-color: transparent !important;
 
   box-shadow: none;
   border-radius: 3px;
 
   width: 100%;
   padding-top: 25px;
+  padding-bottom: 25px;
   margin-bottom: 20px;
 
   position: fixed;
