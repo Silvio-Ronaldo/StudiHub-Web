@@ -20,10 +20,44 @@ const Contents: React.FC = () => {
               na troca humana como a melhor forma de aprender!"
         image="https://i.imgur.com/LsBCuTr.jpg"
       />
-
       <div style={{ marginTop: 10 }}>
         <Animation animation="studentsLearning" />
       </div>
+
+      <Card
+        title="Preciso de uma ajudinha e agora?"
+        text="Com o StudiHub você pode encontrar alguém que já passou pelas mesmas dificuldades.
+              Basta acessar o aplicativo, cadastrar-se como um hubinino,
+              selecionar a matéria que você precisa de uma ajudinha
+              e escolher alguém que encaixe no seu momento e possibilidades. Prontinho!
+              Ao marcar um hub - o encontro presencial - você está dando um passo na sua aprendizagem."
+        image="https://i.imgur.com/UpGtsoG.jpg"
+      />
+      <div style={{ marginTop: 10 }}>
+        <Animation animation="studentGirl" />
+      </div>
+
+      <Card
+        title="Quero compartilhar o que eu sei e ajudar alguém!"
+        text="Parabéns, essa é uma bela atitude e merece toda a admiração. Com o StudiHub você pode
+              cadastrar-se como um hubber, escolher a(s) matéria(s) que você tem algo a compartilhar,
+              definir seus critérios, como gratuidade ou não, e esperar alguém lhe solicitar. A cada hub
+              realizado, sua avaliação na plataforma aumenta e você será melhor recomendado."
+        image="https://i.imgur.com/lAFhg1O.jpg"
+      />
+      <div style={{ marginTop: 10 }}>
+        <Animation animation="welcome" />
+      </div>
+
+      <Card
+        title="Como acessar o StudiHub?"
+        text="Para baixar nosso aplicativo, basta acessar a loja de aplicativos do seu celular
+              e procurar por StudiHub. Nosso aplicativo é leve, intuitivo e seguro.
+              Todos os dados fornecidos são mantidos em consonância à Lei Geral de Proteção de Dados.
+              Estamos em constante evolução para oferecer a melhor experiência de aprendizado e
+              conhecimento. Juntos por uma melhor experiência universitária."
+        image="https://i.imgur.com/iaskwSc.jpg"
+      />
     </Container>
   );
 };
