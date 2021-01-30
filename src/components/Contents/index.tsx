@@ -39,7 +39,7 @@ const Contents: React.FC = () => {
 
       <Card
         title="Quero compartilhar o que eu sei e ajudar alguém!"
-        text="Parabéns, essa é uma bela atitude e merece toda a admiração. Com o StudiHub você pode
+        text="Parabéns, essa é uma bela atitude e merece toda a nossa admiração. Com o StudiHub você pode
               cadastrar-se como um hubber, escolher a(s) matéria(s) que você tem algo a compartilhar,
               definir seus critérios, como gratuidade ou não, e esperar alguém lhe solicitar. A cada hub
               realizado, sua avaliação na plataforma aumenta e você será melhor recomendado."
