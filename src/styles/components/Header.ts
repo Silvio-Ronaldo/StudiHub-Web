@@ -45,7 +45,21 @@ export const Content = styled.div`
   padding: 0 15px;
 `;
 
-export const Brand = styled.div`
+export const BrandGroup = styled.div`
+  display: flex;
+  flex: 1;
+
+  align-items: center;
+`;
+
+export const Logo = styled.img`
+  height: 50px;
+  width: 50px;
+
+  margin-right: 20px;
+`;
+
+export const Name = styled.div`
   flex: 1;
 `;
 

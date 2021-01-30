@@ -4,10 +4,14 @@ import { FiTwitter, FiInstagram, FiFacebook } from 'react-icons/fi';
 import {
   Container,
   Content,
-  Brand,
+  BrandGroup,
+  Logo,
+  Name,
   LinkList,
   StyledLink,
 } from '../../styles/components/Header';
+
+import logoSvg from '../../assets/logo-sem-titulo.svg';
 
 const Header: React.FC = () => {
   const [header, setHeader] = useState('header');
@@ -29,7 +33,10 @@ const Header: React.FC = () => {
   return (
     <Container visibility={header}>
       <Content>
-        <Brand>StudiHub</Brand>
+        <BrandGroup>
+          <Logo src={logoSvg} alt="logo StudiHub" />
+          <Name>StudiHub</Name>
+        </BrandGroup>
 
         <div>
           <LinkList>

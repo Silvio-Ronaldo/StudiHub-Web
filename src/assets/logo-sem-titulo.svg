@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="720" viewBox="0 0 720 720">
+  <defs>
+    <style>
+      .cls-1, .cls-6 {
+        fill: #5a5a5a;
+      }
+
+      .cls-2 {
+        fill: #e9e9e9;
+      }
+
+      .cls-3 {
+        fill: #00add8;
+      }
+
+      .cls-4 {
+        fill: #52ceed;
+      }
+
+      .cls-5 {
+        fill: #92e9ff;
+      }
+
+      .cls-6, .cls-7 {
+        fill-rule: evenodd;
+      }
+
+      .cls-7 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <ellipse id="Elipse_1" data-name="Elipse 1" class="cls-1" cx="360" cy="361" rx="353" ry="352"/>
+  <circle id="Elipse_1_copiar_4" data-name="Elipse 1 copiar 4" class="cls-2" cx="361" cy="357" r="350"/>
+  <ellipse id="Elipse_1_copiar" data-name="Elipse 1 copiar" class="cls-3" cx="361" cy="357" rx="308" ry="312"/>
+  <ellipse id="Elipse_1_copiar_2" data-name="Elipse 1 copiar 2" class="cls-4" cx="361" cy="357" rx="236" ry="240"/>
+  <circle id="Elipse_1_copiar_3" data-name="Elipse 1 copiar 3" class="cls-5" cx="361" cy="357" r="158"/>
+  <path id="Camada_1" data-name="Camada 1" class="cls-6" d="M587,509H531l18.667-51.333h18.666ZM344.779,431.266l167.554-78.282V457.667C493.543,492.586,407.673,509,353.667,509,294.394,509,215.748,491.984,195,457.667V344.5Zm223.554,9.289H549.667V316.336L345.769,411.6,139,291.82,363,201,568.333,307.615v132.94Z"/>
+  <path id="Camada_1_copiar" data-name="Camada 1 copiar" class="cls-7" d="M593,503H537l18.667-51.333h18.666ZM350.779,425.266l167.554-78.282V451.667C499.543,486.586,413.673,503,359.667,503,300.393,503,221.748,485.984,201,451.667V338.5Zm223.554,9.29H555.667V310.336L351.769,405.6,145,285.82,369,195,574.333,301.615V434.556Z"/>
+</svg>
