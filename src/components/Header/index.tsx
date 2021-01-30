@@ -44,7 +44,10 @@ const Header: React.FC = () => {
               <StyledLink to="https://google.com">Quem Somos</StyledLink>
             </li>
             <li>
-              <StyledLink to="https://google.com">Como funciona</StyledLink>
+              <StyledLink to="https://google.com">Quero aprender</StyledLink>
+            </li>
+            <li>
+              <StyledLink to="https://google.com">Quero ensinar</StyledLink>
             </li>
             <li>
               <StyledLink to="https://google.com">Download</StyledLink>
