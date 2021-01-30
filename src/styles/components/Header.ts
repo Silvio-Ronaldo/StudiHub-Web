@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 
 export const Container = styled.header<{ visibility: string }>`
   background-color: ${props =>
@@ -43,6 +43,11 @@ export const Content = styled.div`
 
   margin: 0 auto;
   padding: 0 15px;
+`;
+
+export const TopLink = styled(Link)`
+  color: ${props => props.theme.colors.text};
+  text-decoration: none;
 `;
 
 export const BrandGroup = styled.div`

@@ -4,6 +4,7 @@ import { FiTwitter, FiInstagram, FiFacebook } from 'react-icons/fi';
 import {
   Container,
   Content,
+  TopLink,
   BrandGroup,
   Logo,
   Name,
@@ -33,24 +34,26 @@ const Header: React.FC = () => {
   return (
     <Container visibility={header}>
       <Content>
-        <BrandGroup>
-          <Logo src={logoSvg} alt="logo StudiHub" />
-          <Name>StudiHub</Name>
-        </BrandGroup>
+        <TopLink to="/#top">
+          <BrandGroup>
+            <Logo src={logoSvg} alt="logo StudiHub" />
+            <Name>StudiHub</Name>
+          </BrandGroup>
+        </TopLink>
 
         <div>
           <LinkList>
             <li>
-              <StyledLink to="https://google.com">Quem Somos</StyledLink>
+              <StyledLink to="/#somos">Quem Somos</StyledLink>
             </li>
             <li>
-              <StyledLink to="https://google.com">Quero aprender</StyledLink>
+              <StyledLink to="/#aprender">Quero aprender</StyledLink>
             </li>
             <li>
-              <StyledLink to="https://google.com">Quero ensinar</StyledLink>
+              <StyledLink to="/#ensinar">Quero ensinar</StyledLink>
             </li>
             <li>
-              <StyledLink to="https://google.com">Download</StyledLink>
+              <StyledLink to="/#baixar">Download</StyledLink>
             </li>
             <li>
               <StyledLink to="https://google.com">

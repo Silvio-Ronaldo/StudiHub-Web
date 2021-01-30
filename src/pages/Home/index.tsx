@@ -9,7 +9,7 @@ import Footer from '../../components/Footer';
 
 const Home: React.FC = () => {
   return (
-    <Container>
+    <Container id="top">
       <Header />
       <Banner />
       <Contents />
