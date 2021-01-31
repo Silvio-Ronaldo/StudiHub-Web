@@ -17,7 +17,7 @@ import logoSvg from '../../assets/logo-sem-titulo.svg';
 const Header: React.FC = () => {
   const [header, setHeader] = useState('header');
 
-  const listenScrollEvent = (event: any): any => {
+  const listenScrollEvent = () => {
     if (window.scrollY < 400) {
       return setHeader('header');
     }
