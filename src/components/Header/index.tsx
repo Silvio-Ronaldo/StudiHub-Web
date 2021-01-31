@@ -57,17 +57,20 @@ const Header: React.FC = () => {
               <StyledLink to="/#baixar">Download</StyledLink>
             </li>
             <li>
-              <StyledLink to="https://google.com">
+              <StyledLink target="_blank" to="//google.com">
                 <FiTwitter fill="true" />
               </StyledLink>
             </li>
             <li>
-              <StyledLink to="https://google.com">
+              <StyledLink
+                target="_blank"
+                to="//www.instagram.com/_studihub/?hl=pt-br"
+              >
                 <FiInstagram fill="true" />
               </StyledLink>
             </li>
             <li>
-              <StyledLink to="https://google.com">
+              <StyledLink target="_blank" to="//google.com">
                 <FiFacebook fill="true" />
               </StyledLink>
             </li>
