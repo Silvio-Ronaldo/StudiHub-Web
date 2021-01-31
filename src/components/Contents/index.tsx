@@ -63,7 +63,7 @@ const Contents: React.FC = () => {
                 Todos os dados fornecidos são mantidos em consonância à Lei Geral de Proteção de Dados.
                 Estamos em constante evolução para oferecer a melhor experiência de aprendizado e
                 conhecimento. Juntos por uma melhor experiência universitária."
-          image="https://i.imgur.com/iaskwSc.jpg"
+          image="https://i.imgur.com/E2P8OnZ.jpg"
         />
       </div>
     </Container>
