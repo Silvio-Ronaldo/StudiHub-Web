@@ -15,6 +15,7 @@ export const Container = styled.header<{ visibility: string }>`
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  flex-flow: row nowrap;
 
   color: ${props => props.theme.colors.text};
 
@@ -36,13 +37,42 @@ export const Content = styled.div`
   flex: 1;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: nowrap;
 
   min-height: 50px;
   width: 100%;
-  max-width: 1140px;
 
   margin: 0 auto;
   padding: 0 15px;
+
+  @media (min-width: 576px) {
+    max-width: 540px;
+  }
+
+  @media (min-width: 768px) {
+    max-width: 720px;
+  }
+
+  @media (min-width: 992px) {
+    max-width: 960px;
+  }
+
+  @media (min-width: 1200px) {
+    max-width: 1140px;
+  }
+
+  @media (min-width: 0px) and (orientation: landscape) {
+    min-height: 48px;
+  }
+
+  @media (min-width: 600px) {
+    min-height: 64px;
+  }
+
+  @media (min-width: 600px) {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
 `;
 
 export const TopLink = styled(Link)`
