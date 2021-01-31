@@ -10,7 +10,7 @@ export const Container = styled.header<{ visibility: string }>`
   border-bottom: ${props =>
     props.visibility === 'header'
       ? 'none'
-      : `2px solid ${props.theme.colors.secondary}`};
+      : `1px solid ${props.theme.colors.lightBackground}`};
 
   display: flex;
   align-items: center;
