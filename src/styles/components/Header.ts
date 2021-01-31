@@ -110,6 +110,10 @@ export const LinkList = styled.ul`
   font-weight: 300;
   line-height: 1.5em;
 
+  @media (max-width: 1210px) {
+    display: none;
+  }
+
   li {
     float: left;
     display: block;
@@ -150,4 +154,30 @@ export const StyledLink = styled(Link)`
   white-space: nowrap;
   will-change: box-shadow, transform;
   touch-action: manipulation;
+`;
+
+export const Menu = styled.button`
+  display: none;
+
+  width: 40px;
+  height: 40px;
+  border: none;
+
+  background-color: transparent;
+
+  will-change: box-shadow, transform;
+  touch-action: manipulation;
+
+  &:hover {
+    box-shadow: 0 4px 18px 0px rgba(0, 0, 0, 0.12),
+      0 7px 10px -5px rgba(0, 0, 0, 0.15);
+    transition: all 150ms ease 0s;
+    cursor: pointer;
+  }
+
+  @media (max-width: 1210px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 `;

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { FiTwitter, FiInstagram, FiFacebook } from 'react-icons/fi';
+import { FiTwitter, FiInstagram, FiFacebook, FiMenu } from 'react-icons/fi';
 
 import {
   Container,
@@ -10,6 +10,7 @@ import {
   Name,
   LinkList,
   StyledLink,
+  Menu,
 } from '../../styles/components/Header';
 
 import logoSvg from '../../assets/logo-sem-titulo.svg';
@@ -72,6 +73,10 @@ const Header: React.FC = () => {
             </li>
           </LinkList>
         </div>
+
+        <Menu>
+          <FiMenu color="white" size="24" />
+        </Menu>
       </Content>
     </Container>
   );
