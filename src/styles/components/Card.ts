@@ -31,8 +31,11 @@ export const Title = styled.h2`
   margin-bottom: 10px;
 `;
 
-export const InfoGroup = styled.div`
+export const InfoGroup = styled.div<{ order: string }>`
   display: flex;
   flex: 1;
   justify-content: space-between;
+
+  flex-direction: ${props =>
+    props.order === 'reverse' ? 'row-reverse' : 'row'};
 `;

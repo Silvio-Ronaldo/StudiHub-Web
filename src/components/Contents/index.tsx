@@ -20,6 +20,7 @@ const Contents: React.FC = () => {
                 o que sabe marcando um hub. Acreditamos no diálogo, no ensino,
                 na troca humana como a melhor forma de aprender!"
           image="https://i.imgur.com/LsBCuTr.jpg"
+          order="default"
         />
         <div style={{ marginTop: 10 }}>
           <Animation animation="studentsLearning" />
@@ -35,6 +36,7 @@ const Contents: React.FC = () => {
                 e escolher alguém que encaixe no seu momento e possibilidades. Prontinho!
                 Ao marcar um hub - o encontro presencial - você está dando um passo na sua aprendizagem."
           image="https://i.imgur.com/UpGtsoG.jpg"
+          order="reverse"
         />
         <div style={{ marginTop: 10 }}>
           <Animation animation="studentGirl" />
@@ -49,6 +51,7 @@ const Contents: React.FC = () => {
                 definir seus critérios, como gratuidade ou não, e esperar alguém lhe solicitar. A cada hub
                 realizado, sua avaliação na plataforma aumenta e você será melhor recomendado."
           image="https://i.imgur.com/lAFhg1O.jpg"
+          order="default"
         />
         <div style={{ marginTop: 10 }}>
           <Animation animation="welcome" />
@@ -64,6 +67,7 @@ const Contents: React.FC = () => {
                 Estamos em constante evolução para oferecer a melhor experiência de aprendizado e
                 conhecimento. Juntos por uma melhor experiência universitária."
           image="https://i.imgur.com/E2P8OnZ.jpg"
+          order="reverse"
         />
       </div>
     </Container>

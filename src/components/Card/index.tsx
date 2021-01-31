@@ -15,9 +15,15 @@ interface cardProps {
   title: string;
   text: string;
   image: string;
+  order: string;
 }
 
-const Card: React.FC<cardProps> = ({ title, text, image }: cardProps) => {
+const Card: React.FC<cardProps> = ({
+  title,
+  text,
+  image,
+  order,
+}: cardProps) => {
   return (
     <Container>
       <Content>
@@ -25,7 +31,7 @@ const Card: React.FC<cardProps> = ({ title, text, image }: cardProps) => {
           <Title>{title}</Title>
         </TitleBox>
 
-        <InfoGroup>
+        <InfoGroup order={order}>
           <Description text={text} />
 
           <Media image={image} />
