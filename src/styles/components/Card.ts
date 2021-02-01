@@ -27,6 +27,13 @@ export const Content = styled.div`
   @media (min-width: 1200px) {
     max-width: 1140px;
   }
+
+  @media (max-width: 1210px) {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
 `;
 
 export const TitleBox = styled.div`
@@ -50,7 +57,19 @@ export const InfoGroup = styled.div<{ order: string }>`
   display: flex;
   flex: 1;
   justify-content: space-between;
+  flex-direction: column;
 
-  flex-direction: ${props =>
-    props.order === 'reverse' ? 'row-reverse' : 'row'};
+  @media (min-width: 1210px) {
+    flex-direction: ${props =>
+      props.order === 'reverse' ? 'row-reverse' : 'row'};
+  }
+
+  @media (max-width: 1210px) {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
 `;

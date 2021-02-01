@@ -10,4 +10,11 @@ export const Container = styled.div`
   line-height: 2em;
 
   text-align: left;
+
+  @media (max-width: 1210px) {
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
 `;

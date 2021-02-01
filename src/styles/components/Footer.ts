@@ -10,6 +10,7 @@ export const Container = styled.div`
 export const Content = styled.div`
   display: flex;
   flex: 1;
+  flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -21,5 +22,13 @@ export const Content = styled.div`
     color: ${props => props.theme.colors.text};
 
     padding: 10px 0;
+
+    @media (max-width: 440px) {
+      font-size: 0.8rem;
+    }
+
+    @media (max-width: 340px) {
+      font-size: 0.6rem;
+    }
   }
 `;

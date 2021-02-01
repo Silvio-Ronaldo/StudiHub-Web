@@ -22,7 +22,7 @@ export const Container = styled.header<{ visibility: string }>`
   box-shadow: none;
   border-radius: 3px;
 
-  width: 100%;
+  width: 100vw;
   padding-top: 25px;
   padding-bottom: 25px;
   margin-bottom: 20px;
@@ -40,7 +40,7 @@ export const Content = styled.div`
   flex-wrap: nowrap;
 
   min-height: 50px;
-  width: 100%;
+  width: 100vw;
 
   margin: 0 auto;
   padding: 0 15px;
