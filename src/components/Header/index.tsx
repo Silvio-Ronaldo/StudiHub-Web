@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useLayoutEffect, useState, useEffect } from 'react';
 import { FiTwitter, FiInstagram, FiFacebook, FiMenu } from 'react-icons/fi';
 
 import {
@@ -13,10 +13,22 @@ import {
   Menu,
 } from '../../styles/components/Header';
 
+import MenuList from '../MenuList';
 import logoSvg from '../../assets/logo-sem-titulo.svg';
 
 const Header: React.FC = () => {
+  const [clicked, setClicked] = useState(false);
+  const [weight, setWeight] = useState(0);
   const [header, setHeader] = useState('header');
+
+  useLayoutEffect(() => {
+    function updateSize() {
+      setWeight(window.innerWidth);
+    }
+    window.addEventListener('resize', updateSize);
+    updateSize();
+    return () => window.removeEventListener('resize', updateSize);
+  }, []);
 
   const listenScrollEvent = () => {
     if (window.scrollY < 400) {
@@ -26,6 +38,14 @@ const Header: React.FC = () => {
     return setHeader('header2');
   };
 
+  function handleClick() {
+    if (clicked) {
+      setClicked(false);
+    } else {
+      setClicked(true);
+    }
+  }
+
   useEffect(() => {
     window.addEventListener('scroll', listenScrollEvent);
 
@@ -34,6 +54,7 @@ const Header: React.FC = () => {
 
   return (
     <Container visibility={header}>
+      <MenuList visible={weight < 1210 && clicked} header={header} />
       <Content>
         <TopLink to="/#top">
           <BrandGroup>
@@ -57,24 +78,27 @@ const Header: React.FC = () => {
               <StyledLink to="/#baixar">Download</StyledLink>
             </li>
             <li>
-              <StyledLink to="https://google.com">
+              <StyledLink target="_blank" to="//google.com">
                 <FiTwitter fill="true" />
               </StyledLink>
             </li>
             <li>
-              <StyledLink to="https://google.com">
+              <StyledLink
+                target="_blank"
+                to="//www.instagram.com/_studihub/?hl=pt-br"
+              >
                 <FiInstagram fill="true" />
               </StyledLink>
             </li>
             <li>
-              <StyledLink to="https://google.com">
+              <StyledLink target="_blank" to="//google.com">
                 <FiFacebook fill="true" />
               </StyledLink>
             </li>
           </LinkList>
         </div>
 
-        <Menu>
+        <Menu onClick={handleClick}>
           <FiMenu color="white" size="24" />
         </Menu>
       </Content>

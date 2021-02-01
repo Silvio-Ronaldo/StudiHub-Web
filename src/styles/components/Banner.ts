@@ -1,4 +1,26 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
+
+const appearFromDown = keyframes`
+  from {
+    opacity: 0.1;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+`;
+
+const appearFromLeft = keyframes`
+  from {
+    opacity: 0.1;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+`;
 
 export const Container = styled.div`
   background-image: url('https://i.imgur.com/Ok8PSLD.jpg');
@@ -70,13 +92,15 @@ export const ContentBox = styled.div`
 
     box-shadow: 0 4px 18px 0px rgba(0, 0, 0, 0.12),
       0 7px 10px -5px rgba(0, 0, 0, 0.15);
+    animation: ${appearFromDown} 1s;
   }
 
   h3 {
     margin: 10px 0 0;
     font-size: 1.3rem;
     max-width: 500px;
-
+    text-shadow: 1px 1px #333;
     padding: 0 10px;
+    animation: ${appearFromLeft} 1s;
   }
 `;
