@@ -42,6 +42,7 @@ Who needs help, who can help. StudiHub connects these two sides of the campus, a
   <li><a href="https://github.com/Silvio-Ronaldo/StudiHub-Web#-how-it-works">How it works</a></li>
   <li><a href="https://github.com/Silvio-Ronaldo/StudiHub-Web#-its-paid">It's paid?</a></li>
   <li><a href="https://github.com/Silvio-Ronaldo/StudiHub-Web#%EF%B8%8F-demonstration">Demonstration</a></li>
+  <li><a href="https://github.com/Silvio-Ronaldo/StudiHub-Web#%EF%B8%8F-demonstration">Roadmap</a></li>
   <li><a href="https://github.com/Silvio-Ronaldo/StudiHub-Web#%EF%B8%8F-technologies">Technologies</a></li>
   <li><a href="https://github.com/Silvio-Ronaldo/StudiHub-Web#-contributors">Contributors</a></li>
   <li><a href="https://github.com/Silvio-Ronaldo/StudiHub-Web#-author">Author</a></li>
@@ -80,7 +81,7 @@ Who needs help, who can help. StudiHub connects these two sides of the campus, a
 <p>We thought about some features for the future development of StudiHub:</p>
 
 <p align="center">
-  <img src="" height="360" width="720" />
+  <img src="./assets/roadmap-studihub" height="360" width="720" />
 </p>
 
 
