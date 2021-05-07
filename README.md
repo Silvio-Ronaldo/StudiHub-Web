@@ -81,7 +81,7 @@ Who needs help, who can help. StudiHub connects these two sides of the campus, a
 <p>We thought about some features for the future development of StudiHub:</p>
 
 <p align="center">
-  <img src="./assets/roadmap-studihub.jpeg" height="360" width="720" />
+  <img src="./assets/roadmap.jpeg" height="360" width="720" />
 </p></br>
 
 
