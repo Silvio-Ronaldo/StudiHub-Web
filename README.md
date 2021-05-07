@@ -43,7 +43,7 @@ Who needs help, who can help. StudiHub connects these two sides of the campus, a
   <li><a href="https://github.com/Silvio-Ronaldo/podcastr#%EF%B8%8F-demonstration">It's paid?</a></li>
   <li><a href="https://github.com/Silvio-Ronaldo/podcastr#%EF%B8%8F-demonstration">Demonstration</a></li>
   <li><a href="https://github.com/Silvio-Ronaldo/podcastr#%EF%B8%8F-technologies">Technologies</a></li>
-  <li><a href="https://github.com/Silvio-Ronaldo/podcastr#%EF%B8%8F-demonstration">Demonstration</a></li>
+  <li><a href="https://github.com/Silvio-Ronaldo/podcastr#%EF%B8%8F-demonstration">Contributors</a></li>
   <li><a href="https://github.com/Silvio-Ronaldo/podcastr#%EF%B8%8F-technologies">Author</a></li>
   <li><a href="https://github.com/Silvio-Ronaldo/podcastr#%EF%B8%8F-license">License</a></li>
 </ul>
@@ -96,6 +96,8 @@ Who needs help, who can help. StudiHub connects these two sides of the campus, a
 <table>
   <tr>
     <td align="center"><a href="https://github.com/JoedSilva18"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/41526188?v=4" width="100px;" alt="Joed Silva"/><br /><sub><b>Joed Silva</b></sub></a><br /><a href="https://github.com/JoedSilva18" title="Joed Silva">☕</a></td>
+  </tr>
+</table>
 
 
 <h2>👽 Author</h2>
